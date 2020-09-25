@@ -83,7 +83,13 @@
 }
 
 /*EX-7-IMG*/
-.ex-7-img
+.ex-7-img {
+  transition-duration: 4s;
+}
+
+.ex-7-img:hover {
+  filter: grayscale(1);
+}
 
 
 
