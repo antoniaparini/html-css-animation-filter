@@ -40,12 +40,19 @@
 
 /*EX-4-SQUARE*/
 
-
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition-duration: 2s;
 }
+.ex-4-square:hover {
+  opacity: 0;
+}
+
+/*EX-5-SQUARE*/
+
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
