@@ -11,6 +11,7 @@
 
 .ex-1-square:hover{
   background: red;
+  cursor: pointer;
 }
 
 /*EX-2-SQUARE*/
@@ -23,7 +24,8 @@
 }
 
 .ex-2-square:active:hover {
-  width: 700px;
+  width: 800px;
+  cursor: pointer;
 }
 
 /*EX-3-SQUARE*/
@@ -36,6 +38,7 @@
 }
 .ex-3-square:hover{
   border-radius: 100px;
+  cursor: pointer;
 }
 
 /*EX-4-SQUARE*/
@@ -48,6 +51,7 @@
 }
 .ex-4-square:hover {
   opacity: 0;
+  cursor: pointer;
 }
 
 /*EX-5-SQUARE*/
@@ -58,15 +62,18 @@
     height: 60px;
     background: red;
     transition-duration: 2s;
+    cursor: pointer;
 }
 
 .ex-5-square:hover {
   width: 100px;
   height: 100px;
+  cursor: pointer;
 }
 .ex-5-square:active {
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
 
 /*EX-6-IMG*/
@@ -80,6 +87,7 @@
 }
 .ex-6-img:hover{
   filter: grayscale(1);
+  cursor: pointer;
 }
 
 /*EX-7-IMG*/
@@ -89,6 +97,7 @@
 
 .ex-7-img:hover {
   filter: grayscale(1);
+  cursor: pointer;
 }
 
 /*EX-8-IMG*/
@@ -99,15 +108,26 @@
 .ex-8-img:hover {
   filter: grayscale(1);
   border-radius: 20px;
+  cursor: pointer;
 }
 
 /*EX-9-IMG*/
 
-
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition-duration: 2s;
 }
+
+.ex-9-img:hover {
+    margin: 0px 20px;
+    width: 50%;
+    filter: grayscale(1);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
 .ex-10-icon {
     font-size: 60px;
 }
