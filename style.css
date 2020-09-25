@@ -91,9 +91,17 @@
   filter: grayscale(1);
 }
 
+/*EX-8-IMG*/
+.ex-8-img {
+  transition-duration: 2s;
+}
 
+.ex-8-img:hover {
+  filter: grayscale(1);
+  border-radius: 20px;
+}
 
-
+/*EX-9-IMG*/
 
 
 .ex-9-img {
