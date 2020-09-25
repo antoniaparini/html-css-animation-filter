@@ -9,8 +9,8 @@
     transition-duration: 2s;
 }
 
-.ex-1-square{
-  background-color: red;
+.ex-1-square:hover{
+  background: red;
 }
 
 /*EX-2-SQUARE*/
@@ -23,7 +23,7 @@
 }
 
 .ex-2-square:active:hover {
-  width: 400px;
+  width: 700px;
 }
 
 /*EX-3-SQUARE*/
