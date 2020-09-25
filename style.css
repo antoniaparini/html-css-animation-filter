@@ -144,15 +144,29 @@
       transform: rotate(360deg);
     }
 }
+
 /*EX-11-ICON*/
+
 .ex-11-icon {
     font-size: 60px;
 }
+.ex-11-icon:hover {
+  animation-name: loop-reverse;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+@keyframes loop-reverse{
+    0% {
+      transform: rotate(0deg);
+    }
 
+    80% {transform: rotate(195deg);
 
-
-
-
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+}
 
 
 .ex-12-button, .ex-13-button {
