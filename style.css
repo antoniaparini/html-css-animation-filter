@@ -32,10 +32,13 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition-duration: 3s;
+}
+.ex-3-square:hover{
+  border-radius: 100px;
 }
 
-
-
+/*EX-4-SQUARE*/
 
 
 .ex-4-square {
